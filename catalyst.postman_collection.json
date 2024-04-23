@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"kamal\",\r\n    \"lastName\": \"emad\",\r\n    \"email\": \"kamalkamal@gmail.com\",\r\n    \"password\": \"1234OGIN5\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"kamal\",\r\n    \"lastName\": \"emad\",\r\n    \"email\": \"kamalkadfmal@gmail.com\",\r\n    \"password\": \"1234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -161,7 +161,7 @@
 					"response": []
 				},
 				{
-					"name": "AddProject",
+					"name": "CreateProject",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -189,131 +189,6 @@
 					"response": []
 				}
 			]
-		},
-		{
-			"name": "register",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"firstName\": \"osama\",\r\n    \"lastName\": \"zaid\",\r\n    \"email\": \"kamalkamal@gmail.com\",\r\n    \"password\": \"12345\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:5000/api/users/register",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"users",
-						"register"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "login",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"osamazaid@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:5000/api/users/login",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"users",
-						"login"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "GetProjects",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:5000/api/projects",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"projects"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "GetProject",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:5000/api/projects/661d6f72952da2e09f46f559",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"projects",
-						"661d6f72952da2e09f46f559"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "AddProject",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"info\": \"this is about new startup XYZ\",\r\n    \"size\": \"medium project\",\r\n    \"budget\": \"1200$\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:5000/api/projects",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"projects"
-					]
-				}
-			},
-			"response": []
 		}
 	]
 }
